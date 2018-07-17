@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Section</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scada" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleAnimation.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+
+    <script src="js/script.js"></script>
+
+    <link rel="shortcut icon" href="graphics/connection.png" />
+
+</head>
+
+<body>
+    <div id="startingSection">
+        <div id="startingSectionText">
+            <h1>FIRMA 390</h1>
+
+            <p>In iaculis urna eu est posuere egestas. Vivamus aliquam dignissim erat non faucibus. Pellentesque aliquet at
+                risus quis lobortis. Phasellus eu faucibus lectus, non placerat quam. Donec at venenatis nibh, eu commodo
+                lorem. In finibus ligula dolor, eu aliquet erat semper ac. Fusce velit augue, egestas a ante eget, tincidunt
+                consequat mi.</p>
+        </div>
+        <!-- Icons made by Dave Gandy from www.flaticon.com is licensed by Creative Commons BY 3.0-->
+        <img src="graphics/chevron-up.png" alt="arror down" id="arrowDown">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="graphics/connectionWhite.png" width="50" height="50" class="d-inline-block" alt="FIRMA 390 logo"> FIRMA 390
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" id="sectionsHref">Działy</a>
+                <a class="nav-item nav-link" id="aboutHref">O nas</a>
+                <a class="nav-item nav-link" id="specialtiesHref">Specjalności</a>
+                <a class="nav-item nav-link" id="teamHref">Nasz skład</a>
+                <a class="nav-item nav-link" id="contactHref">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Zobacz jakimi działami się zajmujemy</h2>
+        <div class="row" id="about">
+            <div class="col-6 col-sm-3 col-md-3 sectionCompany">
+                <!-- Link to img: https://www.iconfinder.com/iconsets/office-items-2
+                Licence: Creative Commons (Attribution 3.0 Unported)-->
+                <img src="graphics/if_Calculator-01_2034998.png" alt="icon calculator" class="col imgsectionCompany">
+                <p>Wykoujemy wszelskie kalkulacje do urzędów.</p>
+            </div>
+
+            <div class="col-6 col-sm-3 col-md-3 sectionCompany">
+                <!-- Link to img: https://www.iconfinder.com/iconsets/office-items-2
+                Licence: Creative Commons (Attribution 3.0 Unported)-->
+                <img src="graphics/if_Document-01_2035006.png" alt="icon document" class="col imgsectionCompany">
+                <p>Pomagamy tworzyć Ci raporty i rozliczenia.</p>
+            </div>
+
+            <div class="col-6 col-sm-3 col-md-3 sectionCompany">
+                <!-- Link to img: https://www.iconfinder.com/iconsets/office-items-2
+                Licence: Creative Commons (Attribution 3.0 Unported)-->
+                <img src="graphics/if_Newspaper-01_2034997.png" alt="icon newspaper" class="col imgsectionCompany">
+                <p>Dokładamy wszelskich starań, aby Twoja firma zaistaniała w mediach.</p>
+            </div>
+
+            <div class="col-6 col-sm-3 col-md-3 sectionCompany">
+                <!-- Link to img: https://www.iconfinder.com/iconsets/office-items-2
+                Licence: Creative Commons (Attribution 3.0 Unported)-->
+                <img src="graphics/if_Target-01_2035002.png" alt="icon target" class="col imgsectionCompany">
+                <p>Poszukujemy dla Ciebie nowych klientów.</p>
+            </div>
+        </div>
+
+
+        <h2 id="aboutUs">O nas</h2>
+        <div class="row">
+            <div class="col text-center">
+                <p> Fusce tincidunt, massa eget dictum condimentum, purus enim molestie leo, non bibendum ex eros scelerisque
+                    nisl. Aenean est justo, consequat ut condimentum nec, rutrum
+                    <b> id velit 2015</b>. Vivamus nec posuere diam. Maecenas vestibulum faucibus ex non sodales. Nunc id ornare
+                    magna. Integer massa ante, pellentesque sit amet enim sed, varius sollicitudin leo. Nunc facilisis consectetur
+                    velit, eget fermentum massa maximus eget. Vestibulum scelerisque dui id urna mollis, quis pulvinar justo
+                    dictum. Mauris non aliquam est, ut porttitor magna. Proin sem justo, volutpat eget vehicula ac, iaculis
+                    in mi. Sed pulvinar, velit a congue faucibus, libero dolor gravida ipsum, sit amet efficitur magna tellus
+                    eu mi. Morbi ex lorem, varius in quam eu, condimentum interdum purus. Aliquam est sem, rutrum ut luctus
+                    vel, placerat vel nibh. Integer vitae eros eget magna pellentesque interdum. Etiam imperdiet, tellus
+                    eget tincidunt ultrices, felis nibh
+                    <b> aliquam 180 nibh</b>, sed pharetra turpis erat eu lorem.
+                </p>
+
+                <p>Cras vestibulum nunc a lacinia varius. Sed accumsan, justo nec rhoncus pharetra, risus nulla dapibus turpis,
+                    a luctus ante erat ut mi. Curabitur egestas nulla erat, vitae varius felis condimentum a. Morbi justo
+                    quam, rhoncus sed est eget, laoreet commodo felis. Integer fringilla aliquet tellus vitae venenatis.
+                    Phasellus molestie gravida leo in vulputate.
+
+                </p>
+            </div>
+        </div>
+
+
+        <h2 id="specialties">Nasze specjalności</h2>
+
+        <div class="row justify-content-md-center" id="menuPrototype">
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">IT</a>
+            </div>
+
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">Finanse</a>
+            </div>
+
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">Analiza</a>
+            </div>
+
+            <div class="col-12 col-lg-4" id="divLogo">
+                <!-- Icons made "https://www.flaticon.com/authors/ddara" from "https://www.flaticon.com/" is licensed by "http://creativecommons.org/licenses/by/3.0/" CC 3.0 BY-->
+                <img src="graphics/connection.png" alt="icon brand logo - connecting people" id="logoMenu">
+            </div>
+
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">Biznes</a>                
+            </div>
+
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">Zarządzanie</a>
+            </div>
+
+            <div class="col-12 col-lg-auto menu-item">
+                <a class="menu-itemA">HR</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center" id="menuPrototypeMore"></div>
+
+        <h2 id="assets">Nasze największe atuty</h2>
+        <div class="row" id="cards">
+            <!-- Photo by Roberto Nickson on Unsplash-->
+            <div class="col-2 cardSection cardSectionBackground" id="photoImg1"></div>
+
+            <div class="col-4 cardSection" id="cardInfo1">
+                <!-- Icons made by Freepik from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0 -->
+                <img src="graphics/analysis.png" alt="icon analysis" class="col imageCardIcon">
+
+                <h3>Zwiększanie zysków</h3>
+                <h5>~ Podpis ~</h5>
+                <p>Proin ut tincidunt nunc. Proin vel urna sollicitudin, congue sem ut, ornare ipsum. Ut imperdiet commodo gravida,
+                    tristique.
+                    <b>In condimentum metus</b> non urna dictum porttitor. Fusce egestas urna justo, id pellentesque ligula
+                    faucibus nec.</p>
+            </div>
+
+            <div class="col-4 cardSection" id="cardInfo2">
+                <!-- Icons made by turkkub from https://www.flaticon.com/ is licensed by Creative Commons BY 3.0 -->
+                <img src="graphics/work-team.png" alt="icon work-team" class="col imageCardIcon">
+
+                <h3>Wysokie wyniki</h3>
+                <h5>~ Podpis ~</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan faucibus porta. Vestibulum
+                    <b>vestibulum</b> augue at orci dapibus auctor. Etiam sit amet sem nisl. Cras pulvinar lectus at mauris
+                    facilisis, quis venenatis nunc dapibus. </p>
+            </div>
+
+            <!-- Photo by Gabriela Rodriguez on Unsplash-->
+            <div class="col-2 cardSection cardSectionBackground" id="photoImg2"></div>
+        </div>
+
+        <h2 id="teamH2">Nasz skład</h2>
+        <h3>~ Czyli kto tworzy Firmę ~</h3>
+        <div class="row" id="team">
+            <div class="col-6 col-md-3">
+                <!-- Photo by Ali Morshedlou on Unsplash-->
+                <div class="workersDiv" style="background-image: url('graphics/ali-morshedlou-566510-unsplash.jpg');"></div>
+                <h4>Adam Nowak</h4>
+                Archiwista
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="workersDiv" style="background-image: url('graphics/employees-936804_1920.jpg');"></div>
+                <h4>Jan Kwiat</h4>
+                Kierownik biura
+            </div>
+
+            <div class="col-6 col-md-3">
+                <!-- Photo by Haydn Golden on Unsplash-->
+                <div class="workersDiv" style="background-image: url('graphics/haydn-golden-543403-unsplash.jpg');"></div>
+
+                <h4>John Brick</h4>
+                Specjalista ds. Administracyjnych
+            </div>
+
+            <div class="col-6 col-md-3">
+                <!-- Photo by Nick Karvounis on Unsplash-->
+                <div class="workersDiv" style="background-image: url('graphics/nick-karvounis-423669-unsplash.jpg');"></div>
+
+                <h4>Janusz Kowalski</h4>
+                Specjalista ds. Baz danych
+            </div>
+        </div>
+
+        <div class="row" id="contact">
+            <div class="col-12 col-md-4" id="contactMe">
+                <h3>Skontaktuj się</h3>
+
+                <h5>
+                    <div class="icon-location"> Adres:
+                        <label class="col iconsText">202 New Hampshire Avenue #130, Washington, DC 501847, US</label>
+                    </div>
+                </h5>
+                <hr>
+                <h5>
+                    <div class="icon-phone">
+                        Telefon:
+                        <label class="col">
+                            <a href="tel:+1234-3562-262" class="iconsText">+1234-3562-262</a>
+                        </label>
+                    </div>
+                </h5>
+                <h5>
+                    <div class="icon-fax"> Fax:
+                        <label class="col iconsText">
+                            +1234-3562-262
+                        </label>
+                    </div>
+                </h5>
+                <h5>
+                    <div class="icon-mail"> Email:
+                        <label class="col iconsText">
+                            yourmail@mail.com
+                        </label>
+                    </div>
+                </h5>
+            </div>
+
+            <div class="col-12 col-md-4" id="writeMe">
+                <h3>Napisz</h3>
+                <input type="text" name="inputName" id="inputName" class="col" placeholder="Imię + nazwisko">
+                <input type="email" name="inputEmail" id="inputEmail" class="col" placeholder="Email">
+                <input type="text" name="inputMessage" id="inputMessage" class="col" placeholder="Wiadomość">
+                <input type="submit" value="WYŚLIJ" class="col" id="writeMeSend">
+            </div>
+
+            <div class="col-12 col-md-4">
+                <h3>Nasz blog</h3>
+                <div class="blogSection">
+                    <div class="row ">
+                        <!-- Photo by Olivia Connell on Unsplash-->
+                        <img src="graphics/olivia-connell-726251-unsplash.jpg" alt="photo of palm" class="col-5 blogImg">
+                        <div class="col">
+                            <h5>Blog 1</h5>
+                            <p>Cras sodales neque eu urna tristique, sed lobortis leo pulvinar. </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blogSection">
+                    <div class="row">
+                        <!-- Photo by Annie Spratt on Unsplash-->
+                        <img src="graphics/annie-spratt-608001-unsplash.jpg" alt="photo of working team" class="col-5 blogImg">
+                        <div class="col">
+                            <h5>Blog 2</h5>
+                            <p>Cras sodales neque eu urna tristique, sed lobortis leo pulvinar. </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="blogSection">
+                    <div class="row">
+                        <!-- Photo by Wes Hicks on Unsplash-->
+                        <img src="graphics/wes-hicks-725738-unsplash.jpg" alt="sunset photo" class="col-5 blogImg">
+                        <div class="col">
+                            <h5>Blog 3</h5>
+                            <p>Cras sodales neque eu urna tristique, sed lobortis leo pulvinar. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of contener-->
+    </div>
+    <div id="alerts">
+        BŁĘDNY ADRES MAILOWY  
+        <img src="graphics/if_circle-close_430088.png" alt="circle cross close" class="closeIcon">
+    </div>
+    <div id="rotate"></div>
+</body>
+
+</html>

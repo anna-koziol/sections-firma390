@@ -1,0 +1,168 @@
+  /* Basted of: Animista  http://animista.net, t: @cssanimista */
+
+  @-webkit-keyframes rollingAppend {
+      from {
+          -webkit-transform: translateX(-1000px) rotate(-450deg);
+          transform: translateX(-1000px) rotate(-450deg);
+          -webkit-filter: blur(30px);
+          filter: blur(30px);
+          opacity: 0;
+      }
+      to {
+          -webkit-transform: translateX(0) rotate(0deg);
+          transform: translateX(0) rotate(0deg);
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes rollingAppend {
+      from {
+          -webkit-transform: translateX(-1000px) rotate(-450deg);
+          transform: translateX(-1000px) rotate(-450deg);
+          -webkit-filter: blur(30px);
+          filter: blur(30px);
+          opacity: 0;
+      }
+      to {
+          -webkit-transform: translateX(0) rotate(0deg);
+          transform: translateX(0) rotate(0deg);
+          -webkit-filter: blur(0);
+          filter: blur(0);
+          opacity: 1;
+      }
+  }
+
+  @-webkit-keyframes rotateLogo {
+      from {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+      }
+      to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+
+  @keyframes rotateLogo {
+      from {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+      }
+      to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+
+  @-webkit-keyframes increase {
+      from {
+          font-size: 100%;
+      }
+      to {
+          font-size: 130%;
+      }
+  }
+
+  @keyframes increase {
+      from {
+          font-size: 100%;
+      }
+      to {
+          font-size: 130%;
+      }
+  }
+
+  @-webkit-keyframes grayImg {
+      from {
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+      }
+      to {
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+      }
+  }
+
+  @keyframes grayImg {
+      from {
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+      }
+      to {
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+      }
+  }
+
+  @keyframes workersGrowing {
+      from {
+          border-color: teal;
+      }
+      to {
+          border-color: #CCAD0A;
+      }
+  }
+
+  @-webkit-keyframes appendBottom {
+      0% {
+          -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+          opacity: 0;
+      }
+      100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes appendBottom {
+      0% {
+          -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+          opacity: 0;
+      }
+      100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  @-webkit-keyframes growingOpacity {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+  @keyframes growingOpacity {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+  @-webkit-keyframes downingOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes downingOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

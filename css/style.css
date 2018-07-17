@@ -1,0 +1,417 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    /*width: 1170px;*/
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: teal;
+    padding: 1em;
+    font-weight: bolder;
+    margin-top: 10vh;
+}
+
+.imgsectionCompany:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#menuPrototype {
+    margin-top: 8%;
+    margin-bottom: 16%;
+    border-top: 3px solid black;
+    border-bottom: 9px double black;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#logoMenu {
+    border: 5px solid rgba(0, 0, 0, 1);
+    padding: 2%;
+    border-radius: 100%;
+    background-color: rgba(204, 172, 10, 0.4);
+}
+
+#logoMenu:hover {
+    -webkit-filter: invert(.2);
+    filter: invert(.2);
+    background-color: rgba(204, 172, 10, 0.8);
+    transition: 1s;
+    cursor: pointer;
+    -webkit-animation: rotateLogo 0.5s ease none;
+    animation: rotateLogo 0.5s ease none;
+}
+
+#divLogo {
+    overflow: hidden;
+}
+
+.menu-item {
+    font-weight: bolder;
+    font-size: 130%;
+    line-height: 700%;
+}
+
+.menu-item:hover {
+    color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    color: black !important;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.4) !important;
+    transition: 1s !important;
+    text-decoration: none !important;
+}
+
+#cards {
+    margin-bottom: 8%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+#photoImg1 {
+    background-image: url("../graphics/roberto-nickson-g-715421-unsplash.jpg");
+}
+
+#photoImg2 {
+    background-image: url("../graphics/gabriela-rodriguez-660479-unsplash.jpg");
+}
+
+.cardSectionBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.cardSection>h3 {
+    padding-top: 5%;
+    width: auto;
+    overflow-y: hidden !important;
+}
+
+.cardSection>h5 {
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    color: #CCAD0A;
+}
+
+.cardSection>p {
+    padding-bottom: 5%;
+    font-size: 1.3vw;
+    text-align: left;
+    margin: 2vw;
+}
+
+.imageCardIcon {
+    width: 50%;
+    padding: 10%;
+}
+
+#cardInfo1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#rotate {
+    background-color: rgba(192, 192, 192, 0.2);
+    width: 99vw;
+    height: 50vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -5%;
+    z-index: -1;
+    transform: rotate(1deg);
+}
+
+.workersDiv {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 3px solid teal;
+    box-shadow: 0 0 0 5px hsl(0, 0%, 80%), 0 0 0 8px hsl(0, 0%, 90%);
+    border-radius: 100%;
+    height: 10vw;
+    width: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30%;
+    margin: 20%;
+}
+
+.workersDiv:hover {
+    border-color: #CCAD0A;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bluring {
+    -webkit-animation: appendBottom 1s cubic-bezier(.6, .04, .98, .34) both;
+    animation: appendBottom 1s cubic-bezier(.6, .04, .98, .34) both;
+}
+
+#contact {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+    margin-top: 20%;
+    padding: 5%;
+}
+
+#contact>div {
+    padding: 5%;
+}
+
+#contact>div>h3 {
+    font-weight: bold;
+    padding-bottom: 5%;
+    position: relative;
+    margin-bottom: 20%;
+}
+
+#contact>div>h3:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 33%;
+}
+
+#contactMe>h5 {
+    margin-top: 10%;
+}
+
+#writeMe>input {
+    padding: 3%;
+    margin-bottom: 5%;
+    border: 1px solid transparent;
+    background-color: rgba(192, 192, 192, 0.2);
+}
+
+#writeMe>input:hover, #writeMe>input:focus {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#writeMeSend {
+    background-color: black !important;
+    color: white;
+    font-weight: bold;
+}
+
+#writeMeSend:hover {
+    background-color: #CCAD0A !important;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid #CCAD0A !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+button:focus, button:hover {
+    border: 1px solid rgba(204, 172, 10, 0.6) !important;
+    outline: none;
+}
+
+.blogSection {
+    padding-top: 5%;
+}
+
+.blogSection:hover {
+    transition: 0.5s;
+    background-color: rgba(192, 192, 192, 0.2);
+}
+
+.blogImg {
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+label {
+    line-height: 120%;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+#inputMessage {
+    padding: 7% !important;
+    padding-left: 3% !important;
+}
+
+#alerts {
+    font-size: 140%;
+    background-color: rgb(141, 14, 107);
+    text-align: center;
+    padding: 2%;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    letter-spacing: 3px;
+    -webkit-animation: appendBottom 1s cubic-bezier(.6, .04, .98, .34) both;
+    animation: appendBottom 1s cubic-bezier(.6, .04, .98, .34) both;
+    display: none;
+}
+
+#startingSection {
+    height: 100vh;
+    background-image: url("../graphics/gabriela-rodriguez-660479-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#startingSectionText {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10%;
+    color: white;
+    position: absolute;
+}
+
+#startingSectionText>p {
+    margin-top: 10%;
+    font-style: italic;
+    font-size: 2vh;
+}
+
+#startingSectionText>h1 {
+    width: 80%;
+    border: 2px solid white;
+    padding: 5%;
+    font-family: 'Scada', sans-serif;
+    font-size: 400%;
+}
+
+#arrowDown {
+    padding: 5%;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+#contactMe {
+    font-size: 100%;
+}
+
+.iconsText {
+    font-size: 65%;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: 'Scada', sans-serif;
+    font-size: 200%;
+}
+
+.navbar-brand>img {
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.navbar-nav>a {
+    color: white !important;
+    font-size: 130%;
+    margin-right: 0;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-nav>a:last-of-type {
+    border-right: 0.5px solid transparent;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-right: 0 !important;
+}
+
+.nav-item:hover {
+    color: teal !important;
+    cursor: pointer;
+}
+
+.navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    -webkit-animation: growingOpacity 0.5s ease none;
+    animation: growingOpacity 0.5s ease none;
+}
+
+h6 {
+    font-style: italic;
+    font-size: 120%;
+    -webkit-animation: growingOpacity 0.5s ease none;
+    animation: growingOpacity 0.5s ease none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+    padding: 5%;
+}
+
+.closeIcon {
+    width: 4%;
+}
+
+@media screen and (min-width:992px) {
+    #logoMenu {
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .menu-item {
+        line-height: 300%;
+    }
+    #menuPrototype {
+        padding-top: 2%;
+    }
+    .navbar-nav>a {
+        border-right: 0.5px solid transparent;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cardSection>h3 {
+        font-size: 80%;
+    }
+    .iconsText {
+        font-size: 100%;
+        padding-left: 5% !important;
+    }
+    label>a {
+        margin-left: -5% !important;
+    }
+}
